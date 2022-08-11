@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . app"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/antoniosalabarbosa/electron-app-1#readme",
   "devDependencies": {
-    "electron": "^20.0.2"
+    "electron": "^20.0.2",
+    "electron-packager": "^15.5.1"
   }
 }
